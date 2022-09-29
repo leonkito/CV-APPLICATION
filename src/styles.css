@@ -1,0 +1,52 @@
+
+
+.title{
+    font-size:32px;
+    background-color: red;
+}
+.paper{
+    display:grid;
+    height:calc(297mm -50mm);
+    margin-left: 30mm;
+    margin-right: 20mm;
+    margin-top:30mm;
+    margin-bottom: 20mm;
+    width:calc(210mm -50mm);
+    justify-content: center;
+}
+
+.personalInfoForm{
+    display:flex;
+}
+.inputForm{
+    width: 140px;
+    height: 40px;
+    padding: 5px;
+}
+.personalInfo{
+    display:grid;
+    height: 300px;
+    border:2px solid black;
+    width:160mm;
+}
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 50px;
+    padding:5px;
+    font-size: 16px;
+  }
